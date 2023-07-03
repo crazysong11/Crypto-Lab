@@ -1,0 +1,5 @@
+s = input()
+l1 = list(s)
+l2 = list(set(l1))
+l2.sort(key=l1.index)
+print("".join(l2))
